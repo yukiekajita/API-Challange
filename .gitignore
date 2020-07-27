@@ -1,5 +1,6 @@
 # API Keys
 config.py
+api_keys.py
 # Add DS_Store
 .DS_Store
 # Byte-compiled / optimized / DLL files
