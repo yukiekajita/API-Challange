@@ -32,13 +32,13 @@
 
 ** I also created multiple linear regression plots with a function that created the linear regression plots.
 
-### Northern Hemisphere - Temperature (F) vs. LatitudeGraph Image
+** Northern Hemisphere - Temperature (F) vs. LatitudeGraph Image
 
 
 ![Temp_Latitude_N_Hemisphere](Readme_Images/Temp_Latitude_N_Hemisphere.png)
 
 
-### Southern Hemisphere - Temperature (F) vs. LatitudeGraph Image
+** Southern Hemisphere - Temperature (F) vs. LatitudeGraph Image
 
 
 ![Temp_Latitude_S_Hemisphere](Readme_Images/Temp_Latitude_S_Hemisphere.png)
@@ -50,7 +50,7 @@
 * Created a heat map that displayed the humidity for every city from the part I.
 
 
-### Humidity Heat Map
+** Humidity Heat Map
 
 
 ![humidity_map](Readme_Images/humidity_map.png)
@@ -66,7 +66,7 @@
 * Plotted the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
 
-### My ideal weather condition & Nearby hotel information
+** My ideal weather condition & Nearby hotel information
 
 
 ![hotel_map](Readme_Images/hotel_map.png)
