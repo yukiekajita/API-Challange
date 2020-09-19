@@ -1,4 +1,4 @@
-# API-Challange
+# API-Project
 
 "What's the weather like as we approach the equator?"
 
@@ -13,6 +13,12 @@
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
+* Temperature vs Latitide Graph Image
+
+
+![01 Temperature-Latitude](WeatherPy/01 Temperature-Latitude.png)
+
+
 * Run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
@@ -25,6 +31,17 @@
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
 ** I also created multiple linear regression plots with a function that created the linear regression plots.
+
+* Northern Hemisphere - Temperature (F) vs. LatitudeGraph Image
+
+
+![05 Max Temp-Latitude-N-Hemisphere](WeatherPy/05 Max Temp-Latitude-N-Hemisphere.png)
+
+
+* Southern Hemisphere - Temperature (F) vs. LatitudeGraph Image
+
+
+![06 Max Temp-Latitude-S-Hemisphere](WeatherPy/06 Max Temp-Latitude-S-Hemisphere.png)
 
 ### Part II - VacationPy
 
