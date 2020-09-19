@@ -13,10 +13,12 @@
 * Cloudiness (%) vs. Latitude
 * Wind Speed (mph) vs. Latitude
 
-### Temperature vs Latitide Graph Image
+
+** Temperature vs Latitide Graph Image
 
 
 ![Temperature-Latitude](Readme_Images/Temperature_Latitude.png)
+
 
 
 * Run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
@@ -32,6 +34,7 @@
 
 ** I also created multiple linear regression plots with a function that created the linear regression plots.
 
+
 ** Northern Hemisphere - Temperature (F) vs. LatitudeGraph Image
 
 
@@ -42,6 +45,7 @@
 
 
 ![Temp_Latitude_S_Hemisphere](Readme_Images/Temp_Latitude_S_Hemisphere.png)
+
 
 ### Part II - VacationPy
 
@@ -54,6 +58,7 @@
 
 
 ![humidity_map](Readme_Images/humidity_map.png)
+
 
 * Narrowed down the DataFrame to find my ideal weather condition and dropped any rows that didn't contain all three conditions. 
 
