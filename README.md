@@ -50,29 +50,23 @@
 * Created a heat map that displayed the humidity for every city from the part I.
 
 
-### Humidiry Heat Map
+### Humidity Heat Map
 
 
 ![humidity_map](Readme_Images/humidity_map.png)
 
 * Narrowed down the DataFrame to find my ideal weather condition and dropped any rows that didn't contain all three conditions. 
 
-# Narrow down the cities with Max Temp < 85
-ideal_max_temp = city_data_df.loc[city_data_df["Max Temp"] < 85, :]
-ideal_temp = ideal_max_temp.loc[ideal_max_temp["Max Temp"] > 65, :]
-
-# Narrow down the cities with Humidity < 60
-ideal_humidity = ideal_temp.loc[ideal_temp["Humidity"] < 55, :]
-
-# Narrow down the cities with Ideal Wind Speed < 10
-ideal_wind = ideal_humidity.loc[ideal_humidity["Wind Speed"] < 5, :]
+- Narrow down the cities with Max Temp > 65F, < 85F
+- Narrow down the cities with Humidity < 55%
+- Narrow down the cities with Ideal Wind Speed < 10mph
 
 * Used Google Places API to find the first hotel for each city located within 5000 meters of my coordinates.
 
 * Plotted the hotels on top of the humidity heatmap with each pin containing the **Hotel Name**, **City**, and **Country**.
 
 
-### My favarate weather conditions & Nearby hotel information
+### My ideal weather condition & Nearby hotel information
 
 
 ![hotel_map](Readme_Images/hotel_map.png)
