@@ -16,7 +16,7 @@
 * Temperature vs Latitide Graph Image
 
 
-![01 Temperature-Latitude](WeatherPy/01 Temperature-Latitude.png)
+![Temperature-Latitude](Readme_Images/Temperature_Latitude.png)
 
 
 * Run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
@@ -35,13 +35,13 @@
 * Northern Hemisphere - Temperature (F) vs. LatitudeGraph Image
 
 
-![05 Max Temp-Latitude-N-Hemisphere](WeatherPy/05 Max Temp-Latitude-N-Hemisphere.png)
+![Temp_Latitude_N_Hemisphere](Readme_Images/Temp_Latitude_N_Hemisphere.png)
 
 
 * Southern Hemisphere - Temperature (F) vs. LatitudeGraph Image
 
 
-![06 Max Temp-Latitude-S-Hemisphere](WeatherPy/06 Max Temp-Latitude-S-Hemisphere.png)
+![Temp_Latitude_S_Hemisphere](Readme_Images/Temp_Latitude_S_Hemisphere.png)
 
 ### Part II - VacationPy
 
